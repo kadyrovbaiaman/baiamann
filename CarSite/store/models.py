@@ -34,7 +34,7 @@ class Car(models.Model):
     drive = models.CharField(default='задный', max_length=16, choices=CHOICES_DRIVE)
 
     CHOICES_ENGINE = (
-        ('бензин', 'бензин'),
+        ('бензин', 'бенн'),
         ('газ', 'газ'),
         ('дизель', 'дизель'),
         ('электрический', 'электрический')
